@@ -5,7 +5,7 @@ class ChatbotCore:
     def __init__(self, nltk_processor):
         self.nltk_processor = nltk_processor
         self.nombre = "NEET"
-        self.creador = "Martín Cruz Vince"
+        self.creador = "Alumno del ISFD N°3 - Anexo Forres"
         self.version = "0.8.1c"
         self.historial = []
         

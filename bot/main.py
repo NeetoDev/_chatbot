@@ -129,7 +129,7 @@ class ChatbotIA:
         self.main_frame.pack(fill=tk.BOTH, expand=True)
         
         # Barra de título por defecto de Windows
-        self.title_bar = TitleBar(self.main_frame, self.root, "Chatbot de IA - Trabajo Práctico 5to Año")
+        self.title_bar = TitleBar(self.main_frame, self.root, "Chatbot de IA - Trabajo Práctico")
         
         # Área de contenido principal
         self.content_frame = tk.Frame(self.main_frame, bg=self.colores_actuales['bg_principal'])
@@ -174,7 +174,7 @@ class ChatbotIA:
         
         tk.Label(
             title_frame,
-            text="Trabajo Práctico - 5to Año - Prácticas Profesionalizantes II",
+            text="Trabajo Práctico - Prácticas Profesionalizantes II",
             font=('Segoe UI', 10),
             bg=self.colores_actuales['bg_principal'],
             fg=self.colores_actuales['texto_principal']
